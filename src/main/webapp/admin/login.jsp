@@ -51,11 +51,11 @@
                                     <div class="card-body">
                                         <form>
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" id="userid" type="text" placeholder="name@example.com" />
+                                                <input class="form-control" id="userid" name="userid" type="text" placeholder="name@example.com" />
                                                 <label for="inputEmail">아이디</label>
                                             </div>
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" id="pwd" type="Password" placeholder="Password" />
+                                                <input class="form-control" id="pwd" name="pwd" type="Password" placeholder="Password" />
                                                 <label for="inputPassword">비밀번호</label>
                                             </div>
                                             <!-- <div class="form-check mb-3">
@@ -63,7 +63,7 @@
                                                 <label class="form-check-label" for="inputRememberPassword">비밀번호 저장</label>
                                             </div> -->
                                             <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
-                                                <a class="small" href="password.jsp">비밀번호 찾기</a>
+                                                <!-- <a class="small" href="password.jsp">비밀번호 찾기</a> -->
                                                 <button class="btn btn-primary" type="submit">로그인</button>
                                             </div>
                                         </form>

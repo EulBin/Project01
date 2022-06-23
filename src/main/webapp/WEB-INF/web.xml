@@ -46,21 +46,15 @@
 	</filter-mapping>
 	
 	<servlet>
-		<servlet-name>adminRegister</servlet-name>
-		<servlet-class>adminmember.RegisterController</servlet-class>
+		<servlet-name>home</servlet-name>
+		<servlet-class>com.controller.home.HomeController</servlet-class>
 	</servlet>
-	<servlet-mapping>
-		<servlet-name>adminRegister</servlet-name>
-		<url-pattern>/admin/register.do</url-pattern>
-	</servlet-mapping>
 	
-	<servlet>
-		<servlet-name>adminLogin</servlet-name>
-		<servlet-class>adminmember.loginController</servlet-class>
-	</servlet>
+	
+	<!-- 서블릿 내부명과 URL 명과의 매핑정보 / index 앞 /은 무조건 붙혀야 된다. -->
 	<servlet-mapping>
-		<servlet-name>adminLogin</servlet-name>
-		<url-pattern>/admin/login.do</url-pattern>
+		<servlet-name>home</servlet-name>
+		<url-pattern>/index.do</url-pattern>
 	</servlet-mapping>
 	
 	<context-param>
